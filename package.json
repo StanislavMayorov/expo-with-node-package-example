@@ -7,9 +7,18 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "buffer": "^5.2.1",
+    "events": "^3.0.0",
     "expo": "^32.0.0",
     "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "stream-browserify": "^2.0.2",
+    "readable-stream": {
+      "version": "2.3.6",
+      "requires": {
+        "core-util-is": "github:mjmasn/core-util-is"
+      }
+    }
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0"
