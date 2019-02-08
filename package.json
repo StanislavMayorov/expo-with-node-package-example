@@ -15,7 +15,7 @@
     "stream-browserify": "^2.0.2",
     "readable-stream": {
       "version": "2.3.6",
-      "requires": {
+      "dependencies": {
         "core-util-is": "github:mjmasn/core-util-is"
       }
     }
